@@ -40,8 +40,6 @@ ipgr [FLAGS]
 185.199.111.153
 ```
 
-Extract all IP addresses from a file:
-
 ```
 ➜  cat dummy.log
 2023-05-09 08:22:20 [INFO] Connection established from public IPv4: 93.184.216.34
@@ -55,6 +53,8 @@ Extract all IP addresses from a file:
 2023-05-09 08:22:28 [INFO] Traffic normalized from public IPv6: 2606:2800:220:1:248:1893:25c8:1946
 2023-05-09 08:22:29 [DEBUG] Connection closed from public IPv4:<IPAddress>
 ```
+
+Extract all IP addresses from a file:
 
 ```
 ➜  cat dummy.log | ipgr -s
