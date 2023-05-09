@@ -42,9 +42,8 @@ ipgr [FLAGS]
 
 Extract all IP addresses from a file:
 
-$ cat dummy.log
-
 ```
+➜  cat dummy.log
 2023-05-09 08:22:20 [INFO] Connection established from public IPv4: 93.184.216.34
 2023-05-09 08:22:21 [DEBUG] Assigned private IPv4: 192.168.1.2
 2023-05-09 08:22:22 [INFO] Connection established from public IPv6: 2606:2800:220:1:248:1893:25c8:1946
@@ -57,9 +56,8 @@ $ cat dummy.log
 2023-05-09 08:22:29 [DEBUG] Connection closed from public IPv4:<IPAddress>
 ```
 
-$ cat dummy.log | ipgr -s
-
 ```
+➜  cat dummy.log | ipgr -s
 93.184.216.34
 192.168.1.2
 192.168.1.3
@@ -68,9 +66,8 @@ $ cat dummy.log | ipgr -s
 
 Extract only IPv4 addresses from a file:
 
-$ cat dummy.log | ipgr -4
-
 ```
+➜  cat dummy.log | ipgr -4
 IPv4 addresses:
 93.184.216.34
 192.168.1.2
@@ -79,9 +76,8 @@ IPv4 addresses:
 
 Extract only public IP addresses from a file:
 
-$ ipgr -pub -f dummy.log
-
 ```
+➜  ipgr -pub -f dummy.log
 IPv4 addresses:
 93.184.216.34
 
