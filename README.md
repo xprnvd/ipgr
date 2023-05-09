@@ -1,8 +1,8 @@
 # ipgr
 
-`ipgr` (short for "IP grep") is a command-line program that extracts IPv4 and IPv6 addresses from standard input and prints them to standard output. It can be useful, where you need to quickly extract IP addresses from various sources such as log files, network traffic captures, and DNS records. 
+`ipgr` (short for "IP grep") is a command-line program that extracts IP addresses from stdin/file, with filters available for v4, v6, Public, Private IP address and prints them to stdout. It can be useful, where you need to quickly extract and classify IP addresses from various sources such as log files, network traffic captures, and DNS records. 
 
-By using `ipgr` in combination with other command-line tools, you can easily filter, sort, and manipulate the extracted IP addresses to identify potential targets for further investigation.
+For bug bounty. by using `ipgr` in combination with other command-line tools, you can easily filter, sort, and manipulate the extracted IP addresses to identify potential targets for further investigation.
 
 ## Install with Cargo
 
