@@ -4,6 +4,10 @@
 
 By using `ipgr` in combination with other command-line tools, you can easily filter, sort, and manipulate the extracted IP addresses to identify potential targets for further investigation.
 
+## Install with Cargo
+
+`cargo install --git=https://github.com/raxpd/ipgr`
+
 ## Usage
 
 ipgr [FLAGS]
