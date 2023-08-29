@@ -11,4 +11,4 @@ repository = "https://github.com/raxpd/ipgr"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-regex = "1.9.3"
+regex = "1.9.4"
